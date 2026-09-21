@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "source": "source/motion-brief.yaml",
+  "driver": "pointer",
+  "timeControl": "autonomous",
+  "tracks": [
+    { "id": "hero-reveal", "target": ".hero-copy, .hero-visual", "start": 0, "duration": 750, "easing": "cubic-bezier(.2,.75,.2,1)" },
+    { "id": "hero-page-lift", "target": ".hero.is-page-turn-outgoing", "input": "click-down", "range": { "rotateX": [0, -78], "translateY": [0, "-9vh"], "opacity": [1, 0] }, "duration": 820 },
+    { "id": "crab-claw-push", "target": "[data-page-turn-claw]", "input": "click-down", "range": { "translateX": [45, -65], "translateY": [90, -340], "rotation": [20, -34], "opacity": [0, 1, 0] }, "duration": 820 },
+    { "id": "products-page-reveal", "target": ".products.is-page-turn-underlay", "input": "click-down", "range": { "translateY": ["8vh", 0], "scale": [0.975, 1], "opacity": [0.35, 1] }, "duration": 820 },
+    { "id": "skills-to-app-page-turn", "target": "#panel-skills, #panel-apps", "input": "click-app-from-skills", "range": { "oldPageRotateY": [0, 76], "oldPageTranslateX": [0, "15%"], "newPageRotateY": [-9, 0] }, "duration": 640 },
+    { "id": "kitchen-spatula-cursor", "target": "[data-shovel-pointer]", "input": "pointer-within-content", "range": { "translateX": "pointer.clientX - 10px", "translateY": "pointer.clientY - 6px", "rotation": "-18deg", "opacity": [0, 1] }, "duration": 120 },
+    { "id": "content-card-tilt", "target": "[data-motion-card]", "input": "pointer-within-card", "range": { "rotateX": [-2.6, 2.6], "rotateY": [-3.2, 3.2], "translateY": [-4, 0] }, "duration": 280 },
+    { "id": "content-parallax", "target": ".product-card-image, .article-cover-image, .contact-icon, .contact-arrow", "input": "pointer-within-card", "range": { "translateX": [-7, 7], "translateY": [-7, 7] }, "duration": 320 },
+    { "id": "panel-enter", "target": ".menu-panel:not([hidden])", "input": "menu-selection", "range": { "translateY": [12, 0], "opacity": [0, 1] }, "duration": 480 },
+    { "id": "title-highlight", "target": ".highlight-title", "input": "pointer-within-content", "range": { "backgroundSize": ["0% 42%", "100% 42%"] }, "duration": 520 },
+    { "id": "github-sync", "target": "[data-product-list]", "input": "page-load", "source": "site.config.json -> GitHub REST API", "cache": "no-store" }
+  ],
+  "reducedMotion": { "enabled": true, "fallback": "static" }
+}

@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f4f5f0" />
+    <meta name="description" content="蟹黄堡的个人产品菜单，分享 Skill、App 和正在生长的好奇心。" />
+    <title>蟹黄堡 · Personal studio</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%23df715d'/%3E%3Cpath d='M9 20a11 11 0 0 1 22 0H9Zm0 3h22v5H9Zm2 6h18v3H11Z' fill='%23fff8ed'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" type="module"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#products">跳到产品菜单</a>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+    <div class="shovel-pointer" data-shovel-pointer aria-hidden="true"><img src="./assets/shovel-cursor.svg" alt="" width="40" height="40" draggable="false" /></div>
+    <header class="topbar section-shell">
+      <a class="brand" href="#top" aria-label="回到蟹黄堡首页">
+        <span class="brand-mark" aria-hidden="true"><span></span></span>
+        <span>蟹黄堡</span>
+      </a>
+      <nav class="desktop-nav" aria-label="主导航">
+        <a href="#products">产品菜单 <small>01</small></a>
+        <a href="#products" data-menu-jump="skill">Skills</a>
+        <a href="#products" data-menu-jump="app">APP</a>
+      </nav>
+      <a class="topbar-action" data-github-link hidden target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="打开菜单">
+        <span></span><span></span>
+      </button>
+      <nav id="mobile-menu" class="mobile-menu" aria-label="移动端导航" hidden>
+        <a href="#products">产品菜单 <small>01</small></a>
+        <a href="#products" data-menu-jump="skill">Skills</a>
+        <a href="#products" data-menu-jump="app">APP</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <h1 id="hero-title">
+            <span class="title-first">
+              <span class="title-stack" aria-label="Craberry Make things"><span>Craberry</span><span>Make</span><span>things</span></span>
+              <span class="hero-visual" data-hero-visual aria-hidden="true">
+                <span class="visual-frame" data-hero-frame>
+                  <img class="burger-base" data-burger-base src="./assets/craburger-3d.png" alt="" width="1536" height="1024" fetchpriority="high" draggable="false" />
+                </span>
+              </span>
+            </span>
+          </h1>
+          <a class="hero-down" data-page-turn-trigger href="#products" aria-label="向下进入产品菜单"><span>向下</span><strong>↓</strong></a>
+        </div>
+        <img class="page-turn-claw" data-page-turn-claw src="./assets/crab-claw.svg" alt="" aria-hidden="true" />
+      </section>
+
+      <section id="products" class="products section-shell" aria-labelledby="products-title">
+        <div class="products-heading">
+          <a class="inline-link" data-github-link hidden target="_blank" rel="noopener noreferrer">在 GitHub 看更多 <span>↗</span></a>
+        </div>
+        <div class="menu-tabs" role="tablist" aria-label="产品分类">
+          <button class="menu-tab is-active" id="tab-skills" type="button" role="tab" aria-selected="true" aria-controls="panel-skills" data-menu-tab="skill">Skills</button>
+          <button class="menu-tab" id="tab-apps" type="button" role="tab" aria-selected="false" aria-controls="panel-apps" data-menu-tab="app">APP</button>
+          <button class="menu-tab" id="tab-articles" type="button" role="tab" aria-selected="false" aria-controls="panel-articles" data-menu-tab="article">文章</button>
+          <button class="menu-tab" id="tab-about" type="button" role="tab" aria-selected="false" aria-controls="panel-about" data-menu-tab="about">关于我</button>
+        </div>
+
+        <div class="menu-panels">
+          <section class="menu-panel" id="panel-skills" role="tabpanel" aria-labelledby="tab-skills" data-menu-panel="skill">
+            <div class="category-heading"><h3>Skills</h3><span class="category-caption">AI WORKFLOWS</span></div>
+            <div class="product-list" data-product-list="skill"><div class="empty-card" data-motion-card><span class="empty-label">COMING SOON</span><h4 class="highlight-title">让灵感，顺手一点。</h4><p>Skill 作品整理中。</p></div></div>
+          </section>
+          <section class="menu-panel" id="panel-apps" role="tabpanel" aria-labelledby="tab-apps" data-menu-panel="app" hidden>
+            <div class="category-heading"><h3>APP</h3><span class="category-caption">LITTLE APPS</span></div>
+            <div class="product-list" data-product-list="app"><div class="empty-card" data-motion-card><span class="empty-label">COMING SOON</span><h4 class="highlight-title">把想法，打开看看。</h4><p>App 作品整理中。</p></div></div>
+          </section>
+          <section class="menu-panel text-panel article-panel" id="panel-articles" role="tabpanel" aria-labelledby="tab-articles" data-menu-panel="article" hidden>
+            <div class="category-heading"><h3>文章</h3><span class="category-caption">NOTES &amp; IDEAS</span></div>
+            <div class="article-source-card">
+              <span class="empty-label">FROM XIAOHONGSHU</span>
+              <h4>把小红书里的想法，带到这里。</h4>
+              <p>每篇文章单独展示，点击后阅读原文。</p>
+              <div class="article-list" data-article-list></div>
+            </div>
+          </section>
+          <section class="menu-panel text-panel" id="panel-about" role="tabpanel" aria-labelledby="tab-about" data-menu-panel="about" hidden>
+            <div class="category-heading"><h3>关于我</h3><span class="category-caption">A LITTLE ABOUT ME</span></div>
+            <div class="about-panel" data-motion-card>
+              <div class="about-intro">
+                <p class="about-name highlight-title">黄淑慧</p>
+                <p>2005 年生，生长在浙江温州，ISFJ。</p>
+                <p>这里会持续放入我的 Skills、APP、文章和正在生长的好奇心。</p>
+              </div>
+              <div class="about-contact">
+                <div class="about-contact-heading">
+                  <span class="about-contact-label">— 联系 / ELSEWHERE</span>
+                  <span class="about-contact-index">04</span>
+                </div>
+                <div class="contact-list">
+                  <a class="contact-row" data-motion-card href="https://github.com/shuhuihuang0704" target="_blank" rel="noreferrer">
+                    <span class="contact-icon contact-icon-github" aria-hidden="true">GH</span>
+                    <span class="contact-number">01</span>
+                    <strong class="highlight-title">GitHub</strong>
+                    <span class="contact-handle">@shuhuihuang0704</span>
+                    <span class="contact-arrow" aria-hidden="true">↗</span>
+                  </a>
+                  <a class="contact-row" data-motion-card href="https://www.xiaohongshu.com/user/profile/11619138757" target="_blank" rel="noreferrer">
+                    <span class="contact-icon contact-icon-rednote" aria-hidden="true">小红书</span>
+                    <span class="contact-number">02</span>
+                    <strong class="highlight-title">小红书</strong>
+                    <span class="contact-handle">11619138757</span>
+                    <span class="contact-arrow" aria-hidden="true">↗</span>
+                  </a>
+                  <a class="contact-row" data-motion-card href="https://www.douyin.com/user/1695414656" target="_blank" rel="noreferrer">
+                    <span class="contact-icon contact-icon-douyin" aria-hidden="true">♪</span>
+                    <span class="contact-number">03</span>
+                    <strong class="highlight-title">抖音</strong>
+                    <span class="contact-handle">1695414656</span>
+                    <span class="contact-arrow" aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <p class="catalog-status" role="status" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <a class="footer-brand" href="#top">蟹黄堡<span>保持好奇，慢慢更新。</span></a>
+      <div><span>© 2026 蟹黄堡</span><a href="#top">回到顶部 ↑</a></div>
+    </footer>
+  </body>
+</html>

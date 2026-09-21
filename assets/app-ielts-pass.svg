@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="雅思学习应用插画">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#e7f2ed"/><stop offset="1" stop-color="#f8f3e9"/></linearGradient>
+    <linearGradient id="screen" x2="0" y2="1"><stop stop-color="#fffefa"/><stop offset="1" stop-color="#e9eff5"/></linearGradient>
+    <filter id="shadow" x="-.2" y="-.2" width="1.5" height="1.6"><feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#324b4b" flood-opacity=".13"/></filter>
+  </defs>
+  <rect width="600" height="600" rx="42" fill="url(#bg)"/>
+  <circle cx="468" cy="135" r="61" fill="#f4dfd3"/>
+  <g filter="url(#shadow)"><rect x="158" y="86" width="284" height="414" rx="30" fill="#273b47"/><rect x="174" y="103" width="252" height="380" rx="20" fill="url(#screen)"/></g>
+  <rect x="204" y="138" width="123" height="14" rx="7" fill="#99a8a4"/>
+  <rect x="204" y="173" width="188" height="83" rx="16" fill="#e8f2ef"/>
+  <circle cx="240" cy="215" r="24" fill="#df715d"/><path d="M239 202v26m-9-17v9m18-13v17" fill="none" stroke="#fff8ed" stroke-width="4" stroke-linecap="round"/>
+  <rect x="280" y="199" width="88" height="10" rx="5" fill="#475c62"/><rect x="280" y="220" width="61" height="8" rx="4" fill="#a7b4ae"/>
+  <text x="204" y="302" fill="#25353c" font-family="Arial,sans-serif" font-size="28" font-weight="700">IELTS</text>
+  <rect x="204" y="324" width="188" height="9" rx="4.5" fill="#cbd5d2"/><rect x="204" y="347" width="155" height="9" rx="4.5" fill="#d9e0dc"/>
+  <rect x="204" y="391" width="188" height="54" rx="16" fill="#d6e8e1"/><path d="m226 418 10 10 19-21" fill="none" stroke="#587d70" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="274" y="411" width="91" height="8" rx="4" fill="#78988a"/><circle cx="457" cy="431" r="39" fill="#ffd45c"/>
+  <path d="M444 432a13 13 0 0 1 26 0v12h-26Zm-7 4v7m40-7v7" fill="none" stroke="#273b47" stroke-width="5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,29 @@
+concept_contract: source/concept-contract.yaml
+identity_bible: null
+parameter_space: 2d
+media_access: random
+gesture_policy:
+  unit: continuous
+  inertia: coalesce
+  while_active: retarget
+  boundary: clamp
+  programmatic_navigation: observe
+storyboard:
+  - "K0：静止时在放大的 Craberry、Make、things 标题旁显示原始完整蟹黄堡图片，比例自然轻盈"
+  - "K1：点击向下后，蟹黄堡的小螯足从页面边缘伸出，推动封面向上翻起，露出 Skills 页面"
+  - "K2：在 Skills 页面点击 APP，Skills 页面像书页一样向右翻开，APP 页面从下方显露"
+  - "K3：指针进入产品、文章或关于我内容时，卡片倾斜、插画反向视差移动、局部高光跟随指针"
+  - "K4：指针进入任意内容标题时，黄色荧光笔从文字左侧向右侧扫过，移开后收回"
+  - "K5：指针悬停在任一产品、文章或关于我内容面板时，显示厨用锅铲光标；移出内容区域后恢复默认光标"
+keyframes: [K0, K1, K2]
+clip_chain: []
+rest_state: "完整蟹黄堡图片以自然比例轻微左倾、靠着标题，始终保持完整且不随鼠标分解"
+loop: none
+anchor: fixed-body
+scene_continuity: null
+frame_policy: native
+target_fps: 60
+quality_target: "完整 3D 角色按最大 CSS 尺寸和 DPR 预算；封面翻页、标签翻页与卡片反馈使用 CSS/JS"
+aspect_ratio: custom
+pixel_dimensions: "一张原始完整蟹黄堡图片与一个轻量 SVG 螯足；翻页动效由 CSS/DOM 实时驱动"
+reduced_motion: "关闭翻页、视差、卡片倾斜、高光和面板进入动画；点击向下直接定位到 Skills，保留清晰 CTA"

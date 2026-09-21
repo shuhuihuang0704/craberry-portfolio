@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="宠物玩具应用插画">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#e7f0ef"/><stop offset="1" stop-color="#f7eadc"/></linearGradient><linearGradient id="ball" x2=".8" y2="1"><stop stop-color="#ffad82"/><stop offset="1" stop-color="#e9785f"/></linearGradient><filter id="shadow" x="-.2" y="-.2" width="1.5" height="1.6"><feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#4c5550" flood-opacity=".15"/></filter></defs>
+  <rect width="600" height="600" rx="42" fill="url(#bg)"/><circle cx="460" cy="130" r="68" fill="#d6e5db"/>
+  <g filter="url(#shadow)">
+    <path d="M183 234c-47-23-81 11-60 48 13 24 52 25 78 3l46-40-24-30-40 19Zm231 0c47-23 81 11 60 48-13 24-52 25-78 3l-46-40 24-30 40 19Z" fill="#df715d" stroke="#273936" stroke-width="7" stroke-linejoin="round"/>
+    <path d="m224 244 142 137m-131-166 145 139" stroke="#fff2df" stroke-width="24" stroke-linecap="round"/><path d="m224 244 142 137m-131-166 145 139" stroke="#dca46e" stroke-width="4" stroke-linecap="round" stroke-dasharray="3 15"/>
+    <circle cx="307" cy="333" r="82" fill="url(#ball)" stroke="#273936" stroke-width="7"/><path d="M257 326c20-25 78-40 104-4m-91 48c18 22 57 31 83 12" fill="none" stroke="#fbe2c8" stroke-width="9" stroke-linecap="round"/>
+  </g>
+  <path d="M146 424c0-15 12-27 27-27 6-18 31-20 41-5 16-4 30 8 30 24 18 8 16 34-4 40h-72c-14-4-22-17-22-32Z" fill="#fffefa" stroke="#d9e2dc" stroke-width="4"/>
+  <path d="M183 428c0-7 6-13 13-13 3-9 15-10 20-2 8-2 15 4 15 12 9 4 8 17-2 20h-35c-7-2-11-8-11-17Z" fill="#8fa99a"/>
+  <circle cx="448" cy="423" r="24" fill="#ffd45c"/><path d="M439 423h18m-9-9v18" stroke="#546d5e" stroke-width="5" stroke-linecap="round"/>
+</svg>

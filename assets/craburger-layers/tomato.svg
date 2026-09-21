@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" preserveAspectRatio="none">
+  <defs><clipPath id="tomato"><polygon points="190,635 400,620 610,660 820,625 1040,665 1260,635 1370,700 1350,875 1150,900 940,865 730,910 510,865 300,895 175,805" /></clipPath></defs>
+  <image href="../craburger-3d.png" width="1536" height="1024" preserveAspectRatio="none" clip-path="url(#tomato)" />
+</svg>

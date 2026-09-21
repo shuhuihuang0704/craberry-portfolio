@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="简历制作应用插画">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#eeeaf4"/><stop offset="1" stop-color="#e4eff0"/></linearGradient><linearGradient id="paper" x2="0" y2="1"><stop stop-color="#fffefa"/><stop offset="1" stop-color="#f3f2ee"/></linearGradient><filter id="shadow" x="-.2" y="-.2" width="1.5" height="1.6"><feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#384050" flood-opacity=".14"/></filter></defs>
+  <rect width="600" height="600" rx="42" fill="url(#bg)"/><circle cx="459" cy="136" r="59" fill="#f5dfd5"/>
+  <g filter="url(#shadow)"><rect x="158" y="84" width="284" height="431" rx="25" fill="url(#paper)" stroke="#d9dde0" stroke-width="5"/><rect x="158" y="84" width="284" height="110" rx="25" fill="#d9e8e4"/><path d="M158 170h284v24H158Z" fill="#d9e8e4"/></g>
+  <circle cx="222" cy="139" r="31" fill="#f2d2bf"/><path d="M198 151c8-17 39-17 48 0" fill="#6e8b7c"/><circle cx="222" cy="130" r="12" fill="#66796f"/>
+  <rect x="273" y="121" width="123" height="12" rx="6" fill="#47635b"/><rect x="273" y="144" width="85" height="8" rx="4" fill="#92a99e"/>
+  <text x="195" y="238" fill="#293a36" font-family="Arial,sans-serif" font-size="19" font-weight="700">EXPERIENCE</text><rect x="195" y="255" width="206" height="8" rx="4" fill="#c7d0cc"/><rect x="195" y="274" width="176" height="8" rx="4" fill="#d9dfdc"/><rect x="195" y="294" width="192" height="8" rx="4" fill="#d9dfdc"/>
+  <text x="195" y="343" fill="#293a36" font-family="Arial,sans-serif" font-size="19" font-weight="700">SKILLS</text><rect x="195" y="359" width="87" height="27" rx="13.5" fill="#e5ede6"/><rect x="291" y="359" width="83" height="27" rx="13.5" fill="#f7e4d9"/><rect x="195" y="405" width="206" height="8" rx="4" fill="#c7d0cc"/><rect x="195" y="424" width="163" height="8" rx="4" fill="#d9dfdc"/>
+  <circle cx="420" cy="418" r="49" fill="#ffd45c"/><path d="m398 418 15 15 30-34" fill="none" stroke="#31453d" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" preserveAspectRatio="none">
+  <defs><clipPath id="lettuce"><polygon points="170,360 330,345 500,390 700,355 900,395 1110,360 1370,410 1360,600 1190,650 1000,610 800,665 600,610 400,660 220,585" /></clipPath></defs>
+  <image href="../craburger-3d.png" width="1536" height="1024" preserveAspectRatio="none" clip-path="url(#lettuce)" />
+</svg>

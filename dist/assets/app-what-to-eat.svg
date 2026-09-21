@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="食材与菜谱应用插画">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f6eddd"/><stop offset="1" stop-color="#e9f0df"/></linearGradient>
+    <linearGradient id="plate" x2="0" y2="1"><stop stop-color="#fffefa"/><stop offset="1" stop-color="#e7e9dd"/></linearGradient>
+    <filter id="shadow" x="-.2" y="-.2" width="1.5" height="1.6"><feDropShadow dx="0" dy="13" stdDeviation="13" flood-color="#55543f" flood-opacity=".14"/></filter>
+  </defs>
+  <rect width="600" height="600" rx="42" fill="url(#bg)"/><circle cx="115" cy="131" r="44" fill="#ffd45c" opacity=".9"/>
+  <path d="M110 102c-4-22 11-37 30-39-1 19-10 32-30 39Zm-7 0c-2-17-14-27-30-27 2 16 13 25 30 27Z" fill="#76916a"/>
+  <g filter="url(#shadow)"><ellipse cx="308" cy="390" rx="183" ry="117" fill="#d7d9ce"/><ellipse cx="308" cy="369" rx="183" ry="117" fill="url(#plate)" stroke="#fff" stroke-width="7"/><ellipse cx="308" cy="369" rx="130" ry="74" fill="#f2e4ca"/></g>
+  <path d="M216 370c15-44 58-58 90-32 26-41 87-23 91 21 32 10 37 47 9 64H237c-32-10-42-33-21-53Z" fill="#eaa860"/>
+  <path d="M228 376c28-18 42 6 60-9s31 7 50-7 36 10 59-4" fill="none" stroke="#fff0d2" stroke-width="9" stroke-linecap="round"/>
+  <path d="M251 319c-7-40 18-72 50-77 11 29-5 62-50 77Zm39-4c9-37 43-51 72-39-7 31-35 48-72 39Z" fill="#76916a"/>
+  <circle cx="393" cy="299" r="31" fill="#df715d"/><path d="M390 267c2-14 12-23 25-24-1 13-9 22-25 24Zm-1 1c-9-12-22-14-34-8 9 11 20 14 34 8Z" fill="#627e5b"/>
+  <rect x="391" y="399" width="91" height="74" rx="19" fill="#fffefa" stroke="#e4dfcf" stroke-width="4"/><path d="M412 422h48m-48 17h34" stroke="#abb7a4" stroke-width="7" stroke-linecap="round"/><circle cx="459" cy="457" r="8" fill="#df715d"/>
+</svg>

@@ -1,0 +1,22 @@
+{
+  "display": { "width": 600, "height": 470, "dpr": 2.0 },
+  "layers": 1,
+  "assets": {
+    "format": "single complete burger PNG plus SVG claw and SVG cursor",
+    "sourceDimensions": "1536x1024 hero source",
+    "layerFileSizeTotalMiB": null,
+    "decodedImageMemoryMiB": null
+  },
+  "sourceCheck": null,
+  "cellCheck": null,
+  "temporalCheck": null,
+  "driver": "click-and-tab-state",
+  "parameterSpace": "2d",
+  "timeControl": "autonomous",
+  "access": "random",
+  "backgroundOwner": "page",
+  "delivery": { "selected": "complete-image-with-page-turn", "reasonCodes": ["stable-natural-hero-image", "crab-claw-driven-page-flip"] },
+  "runtime": { "renderer": "css-3d-transforms", "controller": "semantic-click-state" },
+  "failures": [],
+  "passes": true
+}

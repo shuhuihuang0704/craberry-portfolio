@@ -1,0 +1,18 @@
+subject_count: 1
+subjects:
+  - identity: "蟹黄堡个人创作空间：完整原创 3D 蟹堡角色与 Craberry Make things 标题"
+style: "克制、现代、简单清爽；浅色留白、黑色大字、荧光绿和珊瑚色点缀，放大的 3D 蟹堡靠在放大的标题文字旁"
+motion_intent: "封面始终显示轻盈自然的完整蟹黄堡，不再响应指针拆分。点击向下时，小螯足伴随页面绕上沿向上翻起，露出默认选中的 Skills 页面；在 Skills 中点击 APP 时，当前页像书页一样绕左侧向右翻开，显露 APP 内容。指针悬停在任一产品、文章、关于我内容面板时切换为厨用锅铲光标，离开后恢复；产品插画以简洁、易辨识的场景物件为主，使用统一的柔和配色与轻量立体感；产品、文章、关于我内容卡片在指针靠近时轻微倾斜，插画产生视差，高光跟随指针；产品菜单自动同步公开 GitHub 仓库；文章通过安全的数据清单更新；页面内容保持轻量、清晰和可访问"
+background_owner: page
+scene: "透明 3D 蟹堡主视觉作为页面图像，页面负责文字、卡片和交互编排"
+driver: pointer
+input_semantics: continuous
+time_control: autonomous
+navigation: continuous
+clip_continuity: independent
+continuity:
+  - "蟹黄堡主题、浅色背景、黄油黄与珊瑚橙主色"
+  - "原创食物角色，不出现既有品牌或动画角色"
+  - "完整蟹黄堡与 Craberry、Make、things 三行标题的旁侧倚靠关系保持稳定；翻页动作由小螯足带动"
+aspect_ratio: custom
+destination: "个人网站首页与内容菜单，3D 主视觉随标题字号响应式缩放；产品/文章/关于我卡片使用轻量指针视差；瞳孔为页面叠加交互层"

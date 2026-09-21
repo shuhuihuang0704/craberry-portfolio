@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" preserveAspectRatio="none">
+  <defs><clipPath id="cheese"><polygon points="205,475 390,470 560,505 760,475 960,515 1160,480 1340,535 1335,735 1160,765 960,720 760,770 550,725 360,760 200,680" /></clipPath></defs>
+  <image href="../craburger-3d.png" width="1536" height="1024" preserveAspectRatio="none" clip-path="url(#cheese)" />
+</svg>

@@ -1,0 +1,73 @@
+{
+  "siteName": "蟹黄堡",
+  "github": {
+    "profile": "https://github.com/shuhuihuang0704",
+    "autoSync": true,
+    "repoLimit": 100,
+    "exclude": ["shuhuihuang0704/-"],
+    "defaultImage": "./assets/craburger-hero.png"
+  },
+  "products": [
+    {
+      "id": "ielts-pass",
+      "kind": "app",
+      "repo": "shuhuihuang0704/IELTS-Pass",
+      "image": "./assets/app-ielts-pass.svg",
+      "fallback": {
+        "description": "跨端雅思学习应用：以真实场景串联词汇、听力、口语、阅读、写作与复习进度。",
+        "website": "https://ielts-pass.jjhuang.chatgpt.site/"
+      }
+    },
+    {
+      "id": "what-to-eat",
+      "kind": "app",
+      "repo": "shuhuihuang0704/what-to-eat",
+      "image": "./assets/app-what-to-eat.svg",
+      "fallback": {
+        "description": "家庭做饭与食品管理助手：记录冰箱食材、智能推荐菜谱，让“今天吃什么”更简单。",
+        "website": "https://xianchi-what-to-eat.jjhuang.chatgpt.site/"
+      }
+    },
+    {
+      "id": "quzhao-playpaw",
+      "kind": "app",
+      "repo": "shuhuihuang0704/quzhao-playpaw",
+      "image": "./assets/app-quzhao-playpaw.svg",
+      "fallback": {
+        "description": "趣爪 Playpaw · 给毛孩子的好玩伴 — 羊毛、棉绳和陶制的宠物玩具官网。纯 HTML/CSS/原生 JS，零依赖，6 语言（含阿拉伯语 RTL）。",
+        "website": "https://shuhuihuang0704.github.io/quzhao-playpaw/"
+      }
+    },
+    {
+      "id": "resumeweave",
+      "kind": "app",
+      "repo": "shuhuihuang0704/resumeweave",
+      "image": "./assets/app-resumeweave.svg",
+      "fallback": {
+        "description": "AI 简历生成器：根据求职目标整理真实经历，生成可编辑、可导出的岗位匹配简历。",
+        "website": "https://resumeweave.jjhuang.chatgpt.site/"
+      }
+    },
+    {
+      "id": "exportflow-app",
+      "kind": "app",
+      "repo": "shuhuihuang0704/exportflow-app",
+      "image": "./assets/app-exportflow.svg",
+      "fallback": {
+        "description": "出口业务全流程工作台：管理询盘、报价、工厂协作、合同、单证、收汇与退税。",
+        "website": "https://shuhuihuang0704.github.io/exportflow-app/"
+      }
+    }
+  ],
+  "articles": [
+    {
+      "id": "xhs-ai-xiaobai-ielts",
+      "url": "https://xhslink.cn/o/4yfWSoeX2l0",
+      "cover": "./assets/xhs-ai-xiaobai-ielts.jpg",
+      "title": "ai小白手搓雅思app",
+      "author": "蟹黄堡",
+      "summary": "第一次用 Codex agent 手搓出一个 app",
+      "meta": "小红书 / NOTE 01"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f4f5f0" />
+    <meta name="description" content="蟹黄堡的产品介绍、使用说明和 GitHub 仓库。" />
+    <title>产品详情 · 蟹黄堡</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" type="module"></script>
+  </head>
+  <body data-page="product">
+    <a class="skip-link" href="#product-main">跳到产品详情</a>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+    <div class="shovel-pointer" data-shovel-pointer aria-hidden="true"><img src="./assets/shovel-cursor.svg" alt="" width="40" height="40" draggable="false" /></div>
+    <header class="topbar section-shell">
+      <a class="brand" href="./index.html" aria-label="回到蟹黄堡首页">
+        <span class="brand-mark" aria-hidden="true"><span></span></span><span>蟹黄堡</span>
+      </a>
+      <a class="inline-link" href="./index.html#products">全部产品 <span>↗</span></a>
+    </header>
+
+    <main id="product-main" class="detail-main section-shell">
+      <a class="back-link" href="./index.html#products">← 返回产品菜单</a>
+      <div class="detail-state" data-detail-state role="status" aria-live="polite">
+        <p class="eyebrow">PRODUCT DETAILS</p>
+        <h1 class="detail-title" data-state-title>正在打开产品…</h1>
+        <p data-state-description>正在读取产品信息。</p>
+      </div>
+      <noscript><p>请启用 JavaScript 查看产品详情，或返回产品菜单。</p></noscript>
+      <article data-product-detail hidden>
+        <header class="detail-hero">
+          <p class="eyebrow"><span class="detail-category" data-detail-kind></span> / MADE BY 蟹黄堡</p>
+          <h1 class="detail-title" data-detail-name></h1>
+          <p class="detail-summary" data-detail-description></p>
+          <div class="detail-actions">
+            <a class="button button-dark" data-detail-repo target="_blank" rel="noopener noreferrer">GitHub 仓库 <span>↗</span></a>
+            <a class="button button-outline" data-detail-website hidden target="_blank" rel="noopener noreferrer">打开 App <span>↗</span></a>
+          </div>
+        </header>
+        <div class="detail-layout">
+          <div class="detail-body">
+            <section class="detail-section" aria-labelledby="about-title">
+              <p class="eyebrow">01 / OVERVIEW</p>
+              <h2 id="about-title">关于这个产品</h2>
+              <p class="detail-prose" data-detail-about></p>
+            </section>
+            <section class="detail-section" data-features-section hidden aria-labelledby="features-title">
+              <p class="eyebrow">02 / FEATURES</p>
+              <h2 id="features-title">它能做什么</h2>
+              <ul class="feature-list" data-detail-features></ul>
+            </section>
+            <section class="detail-section" aria-labelledby="usage-title">
+              <h2 id="usage-title">开始使用</h2>
+              <p class="detail-prose" data-detail-usage></p>
+              <a class="inline-link" data-detail-readme target="_blank" rel="noopener noreferrer">查看使用文档 <span>↗</span></a>
+            </section>
+          </div>
+          <aside class="detail-meta" aria-label="仓库信息">
+            <p class="eyebrow">FROM GITHUB</p>
+            <dl>
+              <div><dt>仓库</dt><dd><a data-detail-repo-name target="_blank" rel="noopener noreferrer"></a></dd></div>
+              <div><dt>最近推送</dt><dd data-detail-updated>读取中…</dd></div>
+              <div data-language-row hidden><dt>开发语言</dt><dd data-detail-language></dd></div>
+              <div data-stars-row hidden><dt>Stars</dt><dd data-detail-stars></dd></div>
+              <div data-license-row hidden><dt>许可证</dt><dd data-detail-license></dd></div>
+            </dl>
+            <p class="sync-note" data-detail-sync role="status" aria-live="polite">正在读取 GitHub 的最新信息…</p>
+          </aside>
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <a class="footer-brand" href="./index.html">蟹黄堡<span>保持好奇，慢慢更新。</span></a>
+      <div><span>© 2026 蟹黄堡</span><a href="./index.html#products">返回产品菜单 ↑</a></div>
+    </footer>
+  </body>
+</html>
